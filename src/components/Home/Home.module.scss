@@ -1,0 +1,61 @@
+
+
+.main{
+  height: calc(100vh - 100px);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .wrap{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    .fence{
+      align-self: center;
+      margin: 5px;
+      height: 50rem;
+      width: 30px;
+      border: 5px solid black;
+
+    }
+    .containerLeft {
+      width: 50%;
+      height: 100%;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      .heading{
+        font-size: 6rem;
+        text-align: center;
+      }
+      .description{
+        margin-top: -40px;
+        padding: 5px;
+        font-size: 2rem;
+        width: inherit;
+        align-self: center;
+      }
+    }
+    .containerRight{
+      width: 50%;
+      height: 80%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .heading{
+        font-size: 6rem;
+        text-align: center;
+      }
+      .buttonLogin{
+        align-self: center;
+        width: 25rem;
+        height: 5rem;
+      }
+    }
+  }
+
+}

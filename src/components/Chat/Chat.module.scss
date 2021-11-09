@@ -1,0 +1,29 @@
+
+.root{
+  position: absolute;
+  margin-top: 30px!important;
+  max-height: 350px;
+  border-radius: 20px!important;
+  border-top: 6px solid black;
+  z-index: 1;
+}
+.header{
+  border-bottom: 1px solid #999999;
+}
+.inputChat{
+  outline: none;
+}
+.chatContent{
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  overflow: auto;
+}
+
+.avatar{
+  background: #dd2a2a !important;
+}
+
+.footer{
+  background: #e2e2e2;
+}
